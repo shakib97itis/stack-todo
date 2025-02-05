@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-2xl: initial;
+}
+.container {
+  @apply mx-auto px-4;
+}
