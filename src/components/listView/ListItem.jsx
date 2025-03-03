@@ -12,7 +12,7 @@ function ListItem({ todo, handleSelect, handleComplete }) {
         className="checkbox checkbox-sm checkbox-success self-center"
       />
       <div>
-        <div>Todo 1</div>
+        <h4>{todo.title}</h4>
         <div className="text-xs uppercase font-semibold opacity-60">
           {todo.time}
         </div>
